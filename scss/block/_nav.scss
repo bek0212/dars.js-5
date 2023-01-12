@@ -1,0 +1,239 @@
+.select__container {
+  width: 90%;
+  height: 100px;
+  margin: 20px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  .aksed {
+    border-radius: 15px;
+    padding: 10px 30px;
+    font-size: 1rem;
+    outline: none;
+    -webkit-text-stroke-color: #be123c;
+  }
+  .aksed:hover {
+    transition: all ease 0.8s;
+    background-color: blue;
+    color: white;
+  }
+}
+.nav__head {
+  width: 100%;
+  height: 100px;
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .nav__head__item {
+      font-family: "DM Sans";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 47px;
+      color: #000000;
+      list-style-type: none;
+    }
+    .nav__head__links {
+      font-family: "DM Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 24px;
+      color: #be123c;
+      text-decoration-line: none;
+    }
+  }
+}
+.nav__cont1 {
+  width: 1240px;
+  height: 513px;
+  margin: 30px auto;
+  .card__cont111 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    .nav__cont1__card {
+        width: 250px;
+      object-fit: contain;
+      height: 370px;
+    }
+  }
+}
+.vikings {
+  width: 1238px;
+  height: 140px;
+  display: flex;
+    align-items: center;
+    justify-content: space-around;
+  .viskings__bloc1{
+    width: 250px;
+
+    height: 100%;
+  }
+}
+.nom1{
+    background-image: url(../../img/header/movie1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+    transition: all ease 0.8s;
+}
+.nom2{
+    background-image: url(../../img/header/movie2.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    transition: all ease 0.8s;
+}
+.nom3{
+    background-image: url(../../img/header/movie3.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    transition: all ease 0.8s;
+}
+.nom4{
+    background-image: url(../../img/header/movie4.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    transition: all ease 0.8s;
+}
+.nom1:hover{
+    transform: scale(1.1);
+}
+.nom2:hover{
+    transform: scale(1.1);
+}
+.nom3:hover{
+    transform: scale(1.1);
+}
+.nom4:hover{
+    transform: scale(1.1);
+}
+.listnew{
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 16px;
+color: #9CA3AF;
+list-style-type: none;
+margin: 5px -30px;
+text-decoration-line: none;
+}
+.listt{
+    li{
+        list-style-type: none;
+    }
+}
+.h11{
+    width: 250px;
+height: 23px;
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+margin: 5px -30px;
+font-size: 18px;
+line-height: 23px;
+color: #111827;
+}
+.plist{
+    width: 60%;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: -10px;
+    li{
+        font-family: 'DM Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 12px;
+color: #111827;
+list-style-type: none;
+cursor: pointer;
+
+    }
+}
+#ip{
+    width: 148px;
+height: 16px;
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 16px;
+color: #9CA3AF;
+margin: 0 5px;
+}
+///////////////////////////////////////////////////////
+///////////////////////////////////////////////////////
+///////////////////////////////////////////////////////
+///////////////////////////////////////////////////////
+///////////////////////////////////////////////////////
+///////////////////////////////////////////////////////
+.viskings__bloc1{
+    h5{
+        width: 61px;
+height: 16px;
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 16px;
+color: #9CA3AF;
+margin: 10px 10px;
+    }
+    h2{
+        width: 250px;
+height: 23px;
+font-family: 'DM Sans';
+font-style: normal;
+margin: 10px 10px;
+font-weight: 700;
+font-size: 18px;
+cursor: pointer;
+
+color: #111827;
+    }
+    ul{
+        width: 170px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        li{
+            font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+margin-left: -15px;
+cursor: pointer;
+list-style-type: none;
+font-size: 12px;
+line-height: 12px;
+color: #111827;
+        }
+    }
+    p{
+        width: 105px;
+height: 16px;
+font-family: 'DM Sans';
+cursor: pointer;
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 16px;
+color: #9CA3AF;
+margin: 10px 10px;
+    }
+}
+///////////////////////////////////////////////////
+///////////////////////////////////////////////////
+///////////////////////////////////////////////////
+///////////////////////////////////////////////////
+///////////////////////////////////////////////////

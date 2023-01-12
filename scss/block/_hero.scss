@@ -1,0 +1,98 @@
+.hero__container{
+    width:  1280px;
+    height: 500px;
+    margin: 60px auto;
+    position: relative;
+
+    .chap__btn{
+        width: 80px;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        position: absolute;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+        justify-content: center;
+        background: rgb(211, 207, 207);
+        transition: all ease 0.8s;
+    }
+    .chap__btn:hover{
+        background-color: rgb(177, 172, 172);
+    }
+    .chap__btn:active{
+        transition: all 0.1s;
+        background-color: rgb(255, 255, 255);
+    }
+    .popp{
+        font-size: 3rem;
+    }
+    ////////////////////
+    .ong__btn{
+        width: 80px;
+        float: right;
+        height: 100%;
+        position: absolute;
+        display: flex;
+        top: 0;
+        right: 0;
+        align-items: center;
+        cursor: pointer;
+        justify-content: center;
+        background: rgb(211, 207, 207);
+        transition: all ease 0.8s;
+    }
+    .ong__btn:hover{
+        background-color: rgb(177, 172, 172);
+    }
+    .ong__btn:active{
+        transition: all 0.1s;
+        background-color: rgb(255, 255, 255);
+    }
+    .popp2{
+        font-size: 3rem;
+    }
+}
+.nav__center__center{
+        width: 1110px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    .nav__cen__item1{
+        width: 350px;
+        height: 100%;
+        margin: 0 20px;
+        float: left;
+        border: 1px solid #000;
+    }
+    .nav__cen__item2{
+        width: 350px;
+        height: 100%;
+        margin: 0 20px;
+        float: left;
+        border: 1px solid #000;
+    }
+    .nav__cen__item3{
+        width: 350px;
+        height: 100%;
+        margin: 0 30px;
+        float: left;
+        border: 1px solid #000;
+    }
+    .nav__cen__item4{
+        width: 300px;
+        height: 100%;
+        margin: 0 20px;
+        float: left;
+        border: 1px solid #000;
+    }
+    .nav__cen__item5{
+        width: 350px;
+        height: 100%;
+        margin: 0 20px;
+        float: left;
+        border: 1px solid #000;
+    }
+}
